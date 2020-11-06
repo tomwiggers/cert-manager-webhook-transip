@@ -87,7 +87,7 @@ subjects:
   - apiGroup: ""
     kind: ServiceAccount
     name: {{ .Values.certManager.serviceAccountName }}
-    namespace: {{ .Values.cert-Manager.namespace }}
+    namespace: {{ .Values.certManager.namespace }}
 ---
 # Grant cert-manager permission to read secrets from cert-manager ns (i.e. to read the api key for transip)
 apiVersion: rbac.authorization.k8s.io/v1
