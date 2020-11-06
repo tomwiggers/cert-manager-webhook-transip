@@ -86,7 +86,7 @@ roleRef:
 subjects:
   - apiGroup: ""
     kind: ServiceAccount
-    name: {{ .Values.cert-Manager.serviceAccountName }}
+    name: {{ .Values.certManager.serviceAccountName }}
     namespace: {{ .Values.cert-Manager.namespace }}
 ---
 # Grant cert-manager permission to read secrets from cert-manager ns (i.e. to read the api key for transip)
