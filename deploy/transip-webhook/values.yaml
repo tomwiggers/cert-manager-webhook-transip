@@ -1,4 +1,4 @@
-groupName: cert-manager.webhook.transip
+groupName: certmanager.webhook.transip
 
 certManager:
   namespace: cert-manager
