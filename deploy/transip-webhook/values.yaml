@@ -1,6 +1,6 @@
 groupName: cert-manager.webhook.transip
 
-cert-Manager:
+certManager:
   namespace: cert-manager
   serviceAccountName: cert-manager
 
