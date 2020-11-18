@@ -1,11 +1,11 @@
-groupName: certmanager.webhook.transip
+groupName: cert-manager.webhook.transip
 
 certManager:
   namespace: cert-manager
   serviceAccountName: cert-manager
 
 image:
-  repository: robbietjuh/cert-manager-webhook-transip
+  repository: maaroen/cert-manager-webhook-transip
   tag: latest
   privateRegistrySecretName: ""
   pullPolicy: IfNotPresent
