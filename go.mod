@@ -5,7 +5,7 @@ go 1.21
 toolchain go1.22.2
 
 require (
-	github.com/jetstack/cert-manager v0.16.1
+	github.com/cert-manager/cert-manager v0.16.1
 	github.com/transip/gotransip/v6 v6.23.0
 	k8s.io/api v0.29.3
 	k8s.io/apiextensions-apiserver v0.29.3
