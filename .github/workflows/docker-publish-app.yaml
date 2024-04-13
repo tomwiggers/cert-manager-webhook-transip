@@ -6,7 +6,7 @@ on:
       - master
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: tomwiggers/cert-manager-webhook-transip
+  IMAGE_NAME: marck/cert-manager-webhook-transip
 jobs:
   build:
     runs-on: ubuntu-latest
