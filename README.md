@@ -5,7 +5,7 @@ This is an implementation of a Cert-Manager webhook for implementing DNS01 acme 
 ## FORK NOTES
 
 This fork has an updated Docker image based on a newer version Alpine linux. In addition the image has been compiled for
-both amd64 and arm64 instead of only the former. The tag is `ghcr.io/tomwiggers/cert-manager-webhook-transip:latest`, or
+both amd64 and arm64 instead of only the former. The tag is `ghcr.io/marck/cert-manager-webhook-transip:latest`, or
 see "Packages" on the right side.
 
 ### Installation
