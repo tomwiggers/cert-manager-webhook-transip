@@ -5,9 +5,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/util"
 	"os"
 	"strings"
+
+	"github.com/jetstack/cert-manager/pkg/issuer/acme/dns/util"
 
 	v1 "k8s.io/api/core/v1"
 	extapi "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"
