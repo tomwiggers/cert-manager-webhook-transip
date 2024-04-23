@@ -20,7 +20,7 @@ helm install cert-manager-webhook-transip --namespace=cert-manager ./deploy/tran
 Alternatively, you can use kubectl to deploy:
 
 ```shell script
-kubectl -n cert-manager apply -f https://raw.githubusercontent.com/Marck/cert-manager-webhook-transip/master/deploy/recommended.yaml
+kubectl -n cert-manager apply -f https://raw.githubusercontent.com/Marck/k8s-cert-manager-webhook-transip/master/deploy/recommended.yaml
 ```
 
 Both methods will simply deploy the webhook container into your Kubernetes environment. After deployment, you'll have to configure the webhook to interface with your TransIP account.
