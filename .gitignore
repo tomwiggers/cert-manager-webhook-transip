@@ -13,3 +13,6 @@
 
 # IntelliJ
 .idea/
+
+# Config file
+*config.json

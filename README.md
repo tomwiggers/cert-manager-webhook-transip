@@ -13,14 +13,14 @@ see "Packages" on the right side.
 You can use Helm to deploy the webhook:
 
 ```shell script
-$ git clone ...
-$ helm install cert-manager-webhook-transip --namespace=cert-manager ./deploy/transip-webhook
+git clone ...
+helm install cert-manager-webhook-transip --namespace=cert-manager ./deploy/transip-webhook
 ```
 
 Alternatively, you can use kubectl to deploy:
 
 ```shell script
-$ kubectl -n cert-manager apply -f https://raw.githubusercontent.com/robbietjuh/cert-manager-webhook-transip/master/deploy/recommended.yaml
+kubectl -n cert-manager apply -f https://raw.githubusercontent.com/Marck/k8s-cert-manager-webhook-transip/master/deploy/recommended.yaml
 ```
 
 Both methods will simply deploy the webhook container into your Kubernetes environment. After deployment, you'll have to configure the webhook to interface with your TransIP account.
@@ -67,5 +67,5 @@ That's it! Now you're set up to request your first certificate :-)
 Please start out by configuring your environment in `testdata/transip/config.json`. You can then run the test suite with:
 
 ```bash
-$ TEST_ZONE_NAME=example.com go test .
+TEST_ZONE_NAME=example.com go test .
 ```
