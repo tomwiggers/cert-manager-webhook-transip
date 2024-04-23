@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - dev
+      - renovate/*
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: marck/cert-manager-webhook-transip
