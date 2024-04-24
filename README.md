@@ -69,4 +69,3 @@ Please start out by configuring your environment in `testdata/transip/config.jso
 ```bash
 TEST_ZONE_NAME=example.com go test .
 ```
-
